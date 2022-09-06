@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color:#2d4221;
+}
+main{
+    /*background-color:#bec9b8;*/
+    background-image: url('Imagens/bgSpa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.active{
+    font-weight: bold;
+    background-color:#8b4310;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #8b4310;
+}
+.nav-item{
+    background-color:#2d4221;
+}
+.nav-link{
+    color:white;  
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+li a:hover:not(.active) {
+	font-weight: bold;
+}
+
+.border-success {
+    border-color: #2d4221!important;
+}
+
+#imgLogo {
+	/*position: absolute;*/
+	left: 45px;
+	width: 150px;
+}
+.fotoLorena{
+    width:16rem;
+}
+.semImgs{
+    width: 150px;
+    height: 150px;
+}
+
+.btnEnviar{
+    background-color: #8b4310;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.btnEnviar:hover{
+    background-color: #8b4310;
+    font-weight: bold;
+}
+footer{
+    background: #2d4221;
+    color: #fff;
+    height: 7rem;
+}
+
+.imgRedesSociais{
+    width: 2rem;
+    height: 2rem;
+}
+.logoFooter{
+    width: 4rem;
+}
+.textoFooter{
+    color:  #fff;
+}
